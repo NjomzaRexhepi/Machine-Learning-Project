@@ -5,3 +5,5 @@ This repository will contain the semestral project on Machine Learning subject a
 #Phase 1 - Data preprocess
 
 #Phase 2- Traning
+
+#Phase 3 - Retraining
