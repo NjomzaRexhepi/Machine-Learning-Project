@@ -1,9 +1,29 @@
 # Bilanci tregtar në Doganat e Kosovës
 
+Emri i projektit: Bilanci tregtar në Doganat e Kosovës
+Lënda: Machine Learning
+Mentor: Prof.Dr.Lule Ahmedi, Prof.Dr.Mërgim Hoti
+Universiteti: Universiteti i Prishtinës "Hasan Prishtina"
+Fakulteti: Fakulteti i Inxhinierisë Elektrike dhe Kompjuterike, Programi Kompjuterik, 2024/25
+
 ![image](https://github.com/user-attachments/assets/9fb85b80-737f-459a-9d43-967b7e7ccff1)
 
 Ky repository përmban projektin semestral për lëndën Machine Learning, me fokus në të dhënat lidhur me importet në Kosovë për vitet 2023-2024.
 Burimi i të dhënave: https://dogana.rks-gov.net/OpenData/Index?id=4
+
+# Dataset i perdorur per analizim
+Dateseti përmban informacione të detajuara duke përfshirë 11 kolona dhe 233.639 rreshta:
+Viti
+Muaji
+Regjimi
+Origjina
+Kodi tarifor
+Sasia
+Vlera Mallrave
+Netweight
+Taksa Doganës
+Taksa Akcizës
+Taksa TVSH-së
 
 # Fazat e projektit
 ## Faza 1: Parapërpunimi i të dhënave
