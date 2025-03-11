@@ -12,7 +12,7 @@ Ky repository përmban projektin semestral për lëndën Machine Learning, me fo
 Burimi i të dhënave: https://dogana.rks-gov.net/OpenData/Index?id=4
 
 # Dataset i perdorur per analizim
-Dateseti përmban informacione të detajuara duke përfshirë 11 kolona dhe 233.639 rreshta:
+Dateseti përmban informacione të detajuara duke përfshirë 11 kolona dhe 233.639 rreshta:<br>
 Viti<br>
 Muaji<br>
 Regjimi<br>
@@ -27,17 +27,17 @@ Taksa TVSH-së
 
 # Fazat e projektit
 ## Faza 1: Parapërpunimi i të dhënave
-Pastrimi, normalizimi dhe transformimi i të dhënave.<br>
-Trajtimi i vlerave që mungojnë, outliers dhe shkallëzimit të veçorive.<br>
-Analiza e të dhënave eksploruese (EDA) dhe përzgjedhja e veçorive.<br>
+1. Pastrimi, normalizimi dhe transformimi i të dhënave.<br>
+2. Trajtimi i vlerave që mungojnë, outliers dhe shkallëzimit të veçorive.<br>
+3. Analiza e të dhënave eksploruese (EDA) dhe përzgjedhja e veçorive.<br>
 
 ## Faza 2: Trajnimi i modelit
-Ndarja e të dhënave në grupe trajnimi dhe testimi.<br>
-Aplikimi i modeleve të ML (p.sh., regresioni linear, pemët e vendimeve, etj.).<br>
-Vlerësimi i modelit dhe matjet e performancës.<br>
+1. Ndarja e të dhënave në grupe trajnimi dhe testimi.<br>
+2. Aplikimi i modeleve të ML (p.sh., regresioni linear, pemët e vendimeve, etj.).<br>
+3. Vlerësimi i modelit dhe matjet e performancës.<br>
 
 ## Phase 3: Ritrajnimi i modelit
-Modele të rikualifikimit me të dhëna të përditësuara ose hiperparametra të përmirësuar.<br>
-Modele të rregullimit të imët për saktësi dhe përgjithësim më të mirë.<br>
-Vlerësimi dhe testimi i vazhdueshëm për qëndrueshmërinë e modelit.<br>
+1. Modele të rikualifikimit me të dhëna të përditësuara ose hiperparametra të përmirësuar.<br>
+2. Modele të rregullimit të imët për saktësi dhe përgjithësim më të mirë.<br>
+3. Vlerësimi dhe testimi i vazhdueshëm për qëndrueshmërinë e modelit.<br>
 
