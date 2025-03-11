@@ -6,19 +6,18 @@ Ky repository përmban projektin semestral për lëndën Machine Learning, me fo
 Burimi i të dhënave: https://dogana.rks-gov.net/OpenData/Index?id=4
 
 # Fazat e projektit
-Phase 1: Data Preprocessing
-Data cleaning, normalization, and transformation.
-Handling missing values, outliers, and feature scaling.
-Exploratory data analysis (EDA) and feature selection.
+# Faza 1: Parapërpunimi i të dhënave
+Pastrimi, normalizimi dhe transformimi i të dhënave.
+Trajtimi i vlerave që mungojnë, outliers dhe shkallëzimit të veçorive.
+Analiza e të dhënave eksploruese (EDA) dhe përzgjedhja e veçorive.
 
-# Phase 2: Model Training
-Split the data into training and testing sets.
-Apply machine learning models (e.g., linear regression, decision trees, etc.).
-Model evaluation and performance metrics.
+# Faza 2: Trajnimi i modelit
+Ndarja e të dhënave në grupe trajnimi dhe testimi.
+Aplikimi i modeleve të ML (p.sh., regresioni linear, pemët e vendimeve, etj.).
+Vlerësimi i modelit dhe matjet e performancës.
 
-# Phase 3: Model Retraining
-Retraining models with updated data or improved hyperparameters.
-Fine-tuning models for better accuracy and generalization.
-Continuous evaluation and testing for model robustness.
-
+# Phase 3: Ritrajnimi i modelit
+Modele të rikualifikimit me të dhëna të përditësuara ose hiperparametra të përmirësuar.
+Modele të rregullimit të imët për saktësi dhe përgjithësim më të mirë.
+Vlerësimi dhe testimi i vazhdueshëm për qëndrueshmërinë e modelit.
 
