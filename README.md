@@ -1,4 +1,4 @@
-# Machine-Learning-Project
+# Machine Learning Project
 
 ![image](https://github.com/user-attachments/assets/52ed3817-bb6f-4fcf-bf6e-d443c29a3b3b)
 
