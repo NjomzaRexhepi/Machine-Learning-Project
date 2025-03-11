@@ -11,7 +11,7 @@ Fakulteti: Fakulteti i Inxhinierisë Elektrike dhe Kompjuterike, Programi Kompju
 Ky repository përmban projektin semestral për lëndën Machine Learning, me fokus në të dhënat lidhur me importet në Kosovë për vitet 2023-2024.
 Burimi i të dhënave: https://dogana.rks-gov.net/OpenData/Index?id=4
 
-# Dataset i perdorur per analizim
+## Dataset-i i përdorur për analizim
 Dateseti përmban informacione të detajuara duke përfshirë 11 kolona dhe 233.639 rreshta:<br>
 Viti<br>
 Muaji<br>
@@ -36,7 +36,7 @@ Taksa TVSH-së
 2. Aplikimi i modeleve të ML (p.sh., regresioni linear, pemët e vendimeve, etj.).<br>
 3. Vlerësimi i modelit dhe matjet e performancës.<br>
 
-## Phase 3: Ritrajnimi i modelit
+## Faza 3: Ritrajnimi i modelit
 1. Modele të rikualifikimit me të dhëna të përditësuara ose hiperparametra të përmirësuar.<br>
 2. Modele të rregullimit të imët për saktësi dhe përgjithësim më të mirë.<br>
 3. Vlerësimi dhe testimi i vazhdueshëm për qëndrueshmërinë e modelit.<br>
