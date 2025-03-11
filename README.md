@@ -1,6 +1,6 @@
 # Machine Learning Project
 
-![image](https://github.com/user-attachments/assets/52ed3817-bb6f-4fcf-bf6e-d443c29a3b3b)
+![image](https://github.com/user-attachments/assets/9fb85b80-737f-459a-9d43-967b7e7ccff1)
 
 This repository contains the semestral project for the Machine Learning course, focusing on data related to imports in Kosovo for the years 2023-2024.
 Data Source: https://dogana.rks-gov.net/OpenData/Index?id=4
