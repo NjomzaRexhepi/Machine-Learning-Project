@@ -10,4 +10,9 @@ Data cleaning, normalization, and transformation.
 Handling missing values, outliers, and feature scaling.
 Exploratory data analysis (EDA) and feature selection.
 
+# Phase 2: Model Training
+Split the data into training and testing sets.
+Apply machine learning models (e.g., linear regression, decision trees, etc.).
+Model evaluation and performance metrics.
+
 
