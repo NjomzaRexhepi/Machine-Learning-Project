@@ -15,4 +15,9 @@ Split the data into training and testing sets.
 Apply machine learning models (e.g., linear regression, decision trees, etc.).
 Model evaluation and performance metrics.
 
+# Phase 3: Model Retraining
+Retraining models with updated data or improved hyperparameters.
+Fine-tuning models for better accuracy and generalization.
+Continuous evaluation and testing for model robustness.
+
 
