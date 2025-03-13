@@ -14,7 +14,7 @@ Ky repository përmban projektin semestral për lëndën Machine Learning, me fo
 Burimi i të dhënave: https://dogana.rks-gov.net/OpenData/Index?id=4
 
 ## Dataset-i i përdorur për analizim
-Dateseti përmban informacione të detajuara duke përfshirë 11 kolona dhe 233.639 rreshta:<br>
+Dateseti përmban 11 kolona (atribute) dhe 233.639 rreshta (objekte):<br>
 Viti<br>
 Muaji<br>
 Regjimi<br>
