@@ -1,4 +1,4 @@
-# Bilanci tregtar në Doganat e Kosovës
+# Importimi tregtar në Doganat e Kosovës
 
 Emri i projektit: Bilanci tregtar në Doganat e Kosovës<br>
 Lënda: Machine Learning<br>
