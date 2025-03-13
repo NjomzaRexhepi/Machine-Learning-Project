@@ -9,8 +9,10 @@
 
 ![image](https://github.com/user-attachments/assets/9fb85b80-737f-459a-9d43-967b7e7ccff1)
 
-Ky repository përmban projektin semestral për lëndën Machine Learning, me fokus në të dhënat lidhur me importet në Kosovë për vitet 2023-2024.
-Burimi i të dhënave: https://dogana.rks-gov.net/OpenData/Index?id=4
+Ky repository përmban projektin semestral për lëndën Machine Learning, me fokus në analizën e të dhënave lidhur me importet në Kosovë për vitet 2023-2024.
+Burimi i të dhënave: Dogana e Kosovës - Open Data
+
+https://dogana.rks-gov.net/OpenData/Index?id=4
 
 ## Dataset-i i përdorur për analizim
 Dateseti përmban 11 kolona (atribute) dhe 233.639 rreshta (objekte):<br>
