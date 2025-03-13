@@ -1,10 +1,12 @@
 # Importimi tregtar në Doganat e Kosovës
 
-Emri i projektit: Bilanci tregtar në Doganat e Kosovës<br>
+Titulli i projektit: Bilanci tregtar në Doganat e Kosovës<br>
+Universiteti: Universiteti i Prishtinës "Hasan Prishtina"<br>
+Fakulteti: Fakulteti i Inxhinierisë Elektrike dhe Kompjuterike, Programi Kompjuterik, 2024/25<br>
+Niveli i studimeve: Master<br>
 Lënda: Machine Learning<br>
 Mentor: Prof.Dr.Lule Ahmedi, Prof.Dr.Mërgim Hoti<br>
-Universiteti: Universiteti i Prishtinës "Hasan Prishtina"<br>
-Fakulteti: Fakulteti i Inxhinierisë Elektrike dhe Kompjuterike, Programi Kompjuterik, 2024/25
+Anëtarët e grupit punues: Erëblina Berisha, Njomza Rexhepi
 
 ![image](https://github.com/user-attachments/assets/9fb85b80-737f-459a-9d43-967b7e7ccff1)
 
