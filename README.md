@@ -35,12 +35,8 @@ Taksa TVSH-së
 3. Analiza e të dhënave eksploruese (EDA) dhe përzgjedhja e veçorive.<br>
 
 ## Faza 2: Trajnimi i modelit
-1. Ndarja e të dhënave në grupe trajnimi dhe testimi.<br>
-2. Aplikimi i modeleve të ML (p.sh., regresioni linear, pemët e vendimeve, etj.).<br>
-3. Vlerësimi i modelit dhe matjet e performancës.<br>
+...
 
 ## Faza 3: Ritrajnimi i modelit
-1. Modele të rikualifikimit me të dhëna të përditësuara ose hiperparametra të përmirësuar.<br>
-2. Modele të rregullimit të imët për saktësi dhe përgjithësim më të mirë.<br>
-3. Vlerësimi dhe testimi i vazhdueshëm për qëndrueshmërinë e modelit.<br>
+...
 
