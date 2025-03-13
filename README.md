@@ -15,18 +15,30 @@ Burimi i të dhënave: https://dogana.rks-gov.net/OpenData/Index?id=4
 
 ## Dataset-i i përdorur për analizim
 Dateseti përmban 11 kolona (atribute) dhe 233.639 rreshta (objekte):<br>
+
 ### Kolonat e datasetit:<br>
-Viti<br>
-Muaji<br>
-Regjimi<br>
-Origjina<br>
-Kodi tarifor<br>
-Sasia<br>
-Vlera Mallrave<br>
-Netweight<br>
-Taksa Doganës<br>
-Taksa Akcizës<br>
-Taksa TVSH-së
+
+VITI: Viti i transaksionit.
+
+MUAJI: Muaji i transaksionit.
+
+Regjimi: Regjimi ose lloji i transaksionit (p.sh., IM4, që ndoshta tregon një kategori specifike importi).
+
+Origjina: Vendi i origjinës së mallrave të importuara (p.sh., CN - KINA, PL - POLONIA, etj.).
+
+Kodi Tarifor: Një kod specifik i produktit që përdoret për klasifikimin doganor (p.sh., 8807100090, 8529101190).
+
+Sasia: Sasia e mallrave të importuara (në disa raste, kjo është bosh, që mund të tregojë shërbime ose artikuj jo të matshëm).
+
+Vlera Mallrave: Vlera monetare e mallrave të importuara.
+
+Netweight: Pesha neto e mallrave (në disa raste, kjo është bosh ose zero).
+
+Taksa Doganës: Taksa doganore e aplikuar për mallrat.
+
+Taksa Akcizës: Taksa e akcizës e aplikuar për mallrat (në shumicën e rasteve, kjo është zero).
+
+Taksa TVSH-së: Taksa mbi vlerën e shtuar (TVSH) e aplikuar për mallrat.
 
 ## Përshkrimi i Dataset-it:
 
