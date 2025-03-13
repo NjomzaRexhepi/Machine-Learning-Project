@@ -43,7 +43,9 @@ Taksa TVSH-së: Taksa mbi vlerën e shtuar (TVSH) e aplikuar për mallrat.
 
 ## Përshkrimi i Dataset-it:
 
-Ky dataset përfaqëson të dhëna për importet për një periudhë të caktuar. Çdo rresht korrespondon me një artikull të importuar, me detaje rreth origjinës, llojit të produktit, sasisë, vlerës dhe taksave të lidhura. Dataset-i përfshin informacione specifike për produktet (p.sh., kodet tarifore, përshkrimet) dhe informacione financiare (p.sh., vlera, taksat).
+Ky dataset përfaqëson të dhëna për importet në Kosovë për një periudhë të caktuar. Çdo rresht korrespondon me një artikull të importuar, duke përfshirë detaje rreth origjinës, llojit të produktit, sasisë, vlerës dhe taksave të lidhura. Dataset-i përfshin informacione specifike për produktet (p.sh., kodet tarifore) dhe informacione financiare (p.sh., vlera, taksat).
+
+
 
 # Fazat e projektit
 ## Faza 1: Parapërpunimi i të dhënave
