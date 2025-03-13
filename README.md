@@ -28,6 +28,10 @@ Taksa Doganës<br>
 Taksa Akcizës<br>
 Taksa TVSH-së
 
+## Përshkrimi i Dataset-it:
+
+Ky dataset përfaqëson të dhëna për importet për një periudhë të caktuar. Çdo rresht korrespondon me një artikull të importuar, me detaje rreth origjinës, llojit të produktit, sasisë, vlerës dhe taksave të lidhura. Dataset-i përfshin informacione specifike për produktet (p.sh., kodet tarifore, përshkrimet) dhe informacione financiare (p.sh., vlera, taksat).
+
 # Fazat e projektit
 ## Faza 1: Parapërpunimi i të dhënave
 1. Pastrimi, normalizimi dhe transformimi i të dhënave.<br>
