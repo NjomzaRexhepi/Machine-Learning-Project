@@ -16,7 +16,7 @@ Burimi i të dhënave: https://dogana.rks-gov.net/OpenData/Index?id=4
 ## Dataset-i i përdorur për analizim
 Dateseti përmban 11 kolona (atribute) dhe 233.639 rreshta (objekte):<br>
 
-### Kolonat e datasetit:<br>
+## Kolonat e datasetit:<br>
 
 VITI: Viti i transaksionit.
 
