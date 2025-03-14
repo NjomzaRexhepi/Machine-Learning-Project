@@ -66,4 +66,5 @@ Ky dataset përfaqëson të dhëna për importet në Kosovë për një periudhë
 
 ![image](https://github.com/user-attachments/assets/4f06c557-247f-4f90-be58-1920f6b01d4e)
 
+![image](https://github.com/user-attachments/assets/478b9266-dd20-4c2d-90a0-d38db9259f4d)
 
