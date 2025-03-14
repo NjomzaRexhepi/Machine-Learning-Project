@@ -58,9 +58,5 @@ Ky dataset përfaqëson të dhëna për importet në Kosovë për një periudhë
 2. Trajtimi i vlerave që mungojnë, outliers dhe shkallëzimit të veçorive.<br>
 3. Analiza e të dhënave eksploruese (EDA) dhe përzgjedhja e veçorive.<br>
 
-## Faza 2: Trajnimi i modelit
-...
 
-## Faza 3: Ritrajnimi i modelit
-...
 
