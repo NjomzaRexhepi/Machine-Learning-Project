@@ -1,11 +1,11 @@
 # Importimi tregtar në Doganat e Kosovës
-### Bilanci tregtar në Doganat e Kosovës<br>
-### Universiteti i Prishtinës "Hasan Prishtina"<br>
-### Fakulteti i Inxhinierisë Elektrike dhe Kompjuterike, Programi Kompjuterik, 2024/25<br>
-### Master<br>
-### Machine Learning<br>
-### Prof.Dr.Lule Ahmedi, Prof.Dr.Mërgim Hoti<br>
-### Erëblina Berisha, Njomza Rexhepi
+Tema: Bilanci tregtar në Doganat e Kosovës<br>
+Universiteti: Universiteti i Prishtinës "Hasan Prishtina"<br>
+Fakulteti: Fakulteti i Inxhinierisë Elektrike dhe Kompjuterike, Programi Kompjuterik, 2024/25<br>
+Niveli: Master<br>
+LendaL Machine Learning<br>
+Mentoret: Prof.Dr.Lule Ahmedi, Prof.Dr.Mërgim Hoti<br>
+Punuar nga: Erëblina Berisha, Njomza Rexhepi
 
 ![image](https://github.com/user-attachments/assets/9fb85b80-737f-459a-9d43-967b7e7ccff1)
 
