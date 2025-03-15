@@ -49,13 +49,23 @@ Ky dataset përfaqëson të dhëna për importet në Kosovë për një periudhë
 
 # Fazat e projektit
 ## Faza 1: Parapërpunimi i të dhënave
+<h3>Importimi i librarive </h3>
+
+<h3>Importimi i datasetit</h3>
+
+
 1. Pastrimi, normalizimi dhe transformimi i të dhënave.<br>
 2. Trajtimi i vlerave që mungojnë, outliers dhe shkallëzimit të veçorive.<br>
 3. Analiza e të dhënave eksploruese (EDA) dhe përzgjedhja e veçorive.<br>
 
-## Faza 2: Trajnimi i modelit
-...
+## Rezultatet nga faza 1
 
-## Faza 3: Ritrajnimi i modelit
-...
+![image](https://github.com/user-attachments/assets/dc846b75-ef90-4237-ad24-6bf069522f62)
 
+![image](https://github.com/user-attachments/assets/8a968728-71d4-4010-a9fa-60377190022d)
+
+![image](https://github.com/user-attachments/assets/4f06c557-247f-4f90-be58-1920f6b01d4e)
+
+![image](https://github.com/user-attachments/assets/478b9266-dd20-4c2d-90a0-d38db9259f4d)
+
+![image](https://github.com/user-attachments/assets/a7cc54ec-ac06-4b12-ba61-68f0b86cef16)
