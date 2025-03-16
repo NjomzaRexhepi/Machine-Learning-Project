@@ -1,13 +1,13 @@
 # Importimi tregtar në Doganat e Kosovës
-Titulli i projektit: Bilanci tregtar në Doganat e Kosovës<br>
-Universiteti: Universiteti i Prishtinës "Hasan Prishtina"<br>
-Fakulteti: Fakulteti i Inxhinierisë Elektrike dhe Kompjuterike, Programi: Inxhinieri Kompjuterike dhe Softuerike, 2024/25<br>
-Niveli: Master<br>
-Lënda: Machine Learning<br>
-Mësimdhënësit e lëndës: Prof. Dr. Lule Ahmedi, MSc. Mërgim Hoti<br>
-Punuar nga: Erëblina Berisha, Njomza Rexhepi
+<strong>Titulli i projektit</strong>: Bilanci tregtar në Doganat e Kosovës<br>
+<strong>Universiteti</strong>: Universiteti i Prishtinës "Hasan Prishtina"<br>
+<strong>Fakulteti</strong>: Fakulteti i Inxhinierisë Elektrike dhe Kompjuterike, Programi: Inxhinieri Kompjuterike dhe Softuerike, 2024/25<br>
+<strong>Niveli</strong>: Master<br>
+<strong>Lënda</strong>: Machine Learning<br>
+<strong>Mësimdhënësit e lëndës</strong>: Prof. Dr. Lule Ahmedi, Ass. Dr. Mërgim Hoti<br>
+<strong>Punuar nga</strong>: Erëblina Berisha, Njomza Rexhepi
 
-![image](https://github.com/user-attachments/assets/9fb85b80-737f-459a-9d43-967b7e7ccff1)
+![img.png](Results/img1.png)
 
 Ky repository përmban projektin semestral për lëndën Machine Learning, me fokus në analizën e të dhënave lidhur me importet në Kosovë për vitet 2023-2024.
 Burimi i të dhënave: Dogana e Kosovës - Open Data
@@ -15,7 +15,7 @@ Burimi i të dhënave: Dogana e Kosovës - Open Data
 https://dogana.rks-gov.net/OpenData/Index?id=4
 
 ## Dataset-i i përdorur për analizë
-Dateseti përmban 11 kolona (atribute) dhe 233.639 rreshta (objekte)<br>
+Dateseti përmban 11 kolona (atribute) dhe 233.639 rreshta (objekte).<br>
 
 ## Atributet e datasetit:<br>
 
