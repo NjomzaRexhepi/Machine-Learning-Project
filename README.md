@@ -58,57 +58,57 @@ Ky dataset përfaqëson të dhëna për importet në Kosovë për një periudhë
 ## Rezultatet nga faza 1:
 
 Tipet e të dhënave në dataset:<br>
-![img.png](img.png)
+![img.png](Results/img.png)
 
 Përshkrimi i të dhënave numerike:<br>
-![img_1.png](img_1.png)
+![img_1.png](Results/img_1.png)
 
 Përshkrimi i të dhënave jonumerike:<br>
-![img_2.png](img_2.png)
+![img_2.png](Results/img_2.png)
 
 Përqindja e rreshtave duplikatë:<br>
-![img_3.png](img_3.png)
+![img_3.png](Results/img_3.png)
 
 Vlerat e zbrazëta nëpër kolona:<br>
-![img_4.png](img_4.png)![img_5.png](img_5.png)<br>
-![img_6.png](img_6.png)
+![img_4.png](Results/img_4.png)![img_5.png](Results/img_5.png)<br>
+![img_6.png](Results/img_6.png)
 
 Standardizimi apo normalizimi i atributit Kodi Tarifor, për përpunim më të lehtë:<br>
-![img_7.png](img_7.png)
+![img_7.png](Results/img_7.png)
 
 Frekuencat e kategorive të atributit Origjina:<br>
-![img_8.png](img_8.png)![img_9.png](img_9.png)
+![img_8.png](Results/img_8.png)![img_9.png](Results/img_9.png)
 
 Vizualizimi i marrëdhënies midis dy atributeve numerike:<br>
-![img_10.png](img_10.png)
+![img_10.png](Results/img_10.png)
 
 Matrica e korrelacionit:<br>
-![img_11.png](img_11.png)
+![img_11.png](Results/img_11.png)
 
 Procesi i mbushjes së të dhënave ku vlerat që mungojnë (null) në kolonën 'Sasia' parashikohen bazuar në veçori të tjera (p.sh., 'Netweight', 'Vlera Mallrave', 'Taksa TVSH-së') duke përdorur një model RandomForestRegressor:<br>
-![img_12.png](img_12.png)
+![img_12.png](Results/img_12.png)
 
 Detektimi i outliers:<br>
-![img_13.png](img_13.png)
+![img_13.png](Results/img_13.png)
 
 Trajtimi i outliers duke përdorur metodën e IQR:<br>
-![img_15.png](img_15.png)
+![img_15.png](Results/img_15.png)
 
 Koeficienti i anueshmërisë:<br>
-![img_16.png](img_16.png)
+![img_16.png](Results/img_16.png)
 
 Transformimi i të dhënave në kolonat Origjina dhe Kodi Tarifor:<br>
-![img_17.png](img_17.png)
+![img_17.png](Results/img_17.png)
 
 Identifikimi i klasëve të shtrembëra:<br>
-![img_19.png](img_19.png)
-![img_20.png](img_20.png)
-![img_21.png](img_21.png)
-![img_22.png](img_22.png)
+![img_19.png](Results/img_19.png)
+![img_20.png](Results/img_20.png)
+![img_21.png](Results/img_21.png)
+![img_22.png](Results/img_22.png)
 
 Histogramet për kolonën Netweight:<br>
-![img_23.png](img_23.png)
-![img_24.png](img_24.png)
+![img_23.png](Results/img_23.png)
+![img_24.png](Results/img_24.png)
 
 
 
