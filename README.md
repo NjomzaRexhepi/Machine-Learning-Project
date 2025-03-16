@@ -85,7 +85,7 @@ Vizualizimi i marrëdhënies midis dy atributeve numerike:<br>
 Matrica e korrelacionit:<br>
 ![img_11.png](img_11.png)
 
-Procesi i mbushjes së të dhënave ku vlerat që mungojnë (null) në kolonën 'Sasia' parashikohen bazuar në veçori të tjera (p.sh., 'Netweight', 'Vlera Mallrave', 'Taksa TVSH-së') duke përdorur një model RandomForestRegressor.<br>
+Procesi i mbushjes së të dhënave ku vlerat që mungojnë (null) në kolonën 'Sasia' parashikohen bazuar në veçori të tjera (p.sh., 'Netweight', 'Vlera Mallrave', 'Taksa TVSH-së') duke përdorur një model RandomForestRegressor:<br>
 ![img_12.png](img_12.png)
 
 Detektimi i outliers:<br>
@@ -99,6 +99,17 @@ Koeficienti i anueshmërisë:<br>
 
 Transformimi i të dhënave në kolonat Origjina dhe Kodi Tarifor:<br>
 ![img_17.png](img_17.png)
+
+Identifikimi i klasëve të shtrembëra:<br>
+![img_19.png](img_19.png)
+![img_20.png](img_20.png)
+![img_21.png](img_21.png)
+![img_22.png](img_22.png)
+
+Histogramet për kolonën Netweight:<br>
+![img_23.png](img_23.png)
+![img_24.png](img_24.png)
+
 
 
 
