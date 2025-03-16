@@ -4,7 +4,7 @@
 <strong>Fakulteti</strong>: Fakulteti i Inxhinierisë Elektrike dhe Kompjuterike, Programi: Inxhinieri Kompjuterike dhe Softuerike, 2024/25<br>
 <strong>Niveli</strong>: Master<br>
 <strong>Lënda</strong>: Machine Learning<br>
-<strong>Mësimdhënësit e lëndës</strong>: Prof. Dr. Lule Ahmedi, Ass. Dr. Mërgim Hoti<br>
+<strong>Mësimdhënësit e lëndës</strong>: Prof. Dr. Lule Ahmedi, Dr. Sc. Mërgim Hoti<br>
 <strong>Punuar nga</strong>: Erëblina Berisha, Njomza Rexhepi
 
 ![img.png](Results/img1.png)
@@ -14,7 +14,7 @@ Burimi i të dhënave: Dogana e Kosovës - Open Data
 
 https://dogana.rks-gov.net/OpenData/Index?id=4
 
-## Dataset-i i përdorur për analizë
+## Dataset-i i përdorur për analizë, parapërpunim dhe trajnim
 Dateseti përmban 11 kolona (atribute) dhe 233.639 rreshta (objekte).<br>
 
 ## Atributet e datasetit:<br>
