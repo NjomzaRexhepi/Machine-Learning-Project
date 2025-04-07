@@ -184,12 +184,15 @@ Ky kod krijon dy grafike për secilën kolone numerike në dataset:
 **Foto 16: Histogrami i Shpërndarjes së të Dhënave për 'Netweight'**
 
 **Përshkrim:**<br>
-Ky kod vizualizon shpërndarjen e të dhënave për kolonën Netweight përpara dhe pas pastrimit të të dhënave.
+Kjo figurë vizualizon shpërndarjen e të dhënave për kolonën Netweight përpara dhe pas pastrimit të të dhënave.
 * Histogrami para pastrimit tregon shpërndarjen origjinale të të dhënave.
 * Histogrami pas pastrimit tregon shpërndarjen e të dhënave pas trajtimit, ku është aplikuar një transformim logaritmik për të përmirësuar normalitetin e shpërndarjes.<br>
 ![img_23.png](Results/img_23.png)
 ![img_24.png](Results/img_24.png)
 
+
+
+### FAZA DYTE
 
 
 
