@@ -192,7 +192,7 @@ Kjo figurë vizualizon shpërndarjen e të dhënave për kolonën Netweight për
 
 
 
-### FAZA DYTE
+## Faza 2: Trajnimi i modeleve me të dhëna
 
 
 
