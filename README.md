@@ -57,7 +57,7 @@ Ky dataset përfaqëson të dhëna për importet në Kosovë për një periudhë
 
 ## Rezultatet nga faza 1:
 
-**Foto 1: Përmbledhje e Dataset-it dhe Tipet e të Dhënave**
+**Përmbledhje e Dataset-it dhe Tipet e të Dhënave**
 
 **Përshkrim:<br>**
 Kjo foto paraqet një përmbledhje të strukturës së dataset-it, e cila përmban gjithsej 233,638 rreshta dhe 11 kolona. Kolonat janë të ndara sipas tipeve të të dhënave:
@@ -69,7 +69,7 @@ Kjo foto paraqet një përmbledhje të strukturës së dataset-it, e cila përmb
 Njohja e tipeve të të dhënave është një hap thelbësor përpara përpunimit, pasi ndikon në mënyrën se si do të kodohen, normalizohen ose transformohen më tej këto të dhëna.
 ![img.png](Results/img.png)
 
-**Foto 2: Statistikat Përshkruese të Kolonave Numerike**
+**Statistikat Përshkruese të Kolonave Numerike**
 
 **Përshkrim:**<br>
 Kjo foto shfaq statistikat përshkruese të kolonave numerike në dataset, të gjeneruara përmes funksionit df.describe(). Ky hap ndihmon për të kuptuar shpërndarjen dhe karakteristikat kryesore të të dhënave numerike:<br>
@@ -83,7 +83,7 @@ Kjo foto shfaq statistikat përshkruese të kolonave numerike në dataset, të g
 Këto statistika ndihmojnë në identifikimin e vlerave jashtëzakonisht të larta (outliers), shpërndarjes jo të balancuar, dhe mund të sinjalizojnë nevojën për normalizim ose transformime të tjera të të dhënave.<br>
 ![img_1.png](Results/img_1.png)
 
-**Foto 3: Statistikat Përshkruese për Kolonat Kategorike (Objekt)**
+**Statistikat Përshkruese për Kolonat Kategorike (Objekt)**
 
 **Përshkrim:**<br>
 Kjo foto paraqet statistikat përshkruese për kolonat me tip object në dataset, të gjeneruara me df.describe(include=['O']). Këto kolona zakonisht përmbajnë vlera tekstuale ose kategorike, si Regjimi, Origjina dhe Kodi Tarifor.<br>
@@ -94,13 +94,13 @@ Kjo foto paraqet statistikat përshkruese për kolonat me tip object në dataset
 
 ![img_2.png](Results/img_2.png)
 
-**Foto 4: Rreshtat e Përsëritur**
+**Rreshtat e Përsëritur**
 
 **Përshkrim:**
 Kjo foto tregon përqindjen e rreshtave të përsëritur në dataset, e llogaritur me df.duplicated(). Rreshtat e përsëritur mund të ndikojnë negativisht në analizë dhe zakonisht duhen hequr për të ruajtur saktësinë e të dhënave.<br>
 ![img_3.png](Results/img_3.png)
 
-**Foto 5: Mungesa e të Dhënave në Kolonat Numerike dhe Kategorike**
+**Mungesa e të Dhënave në Kolonat Numerike dhe Kategorike**
 
 **Përshkrim:**<br>
 Kjo foto tregon analizën e mungesës së të dhënave në dataset për kolonat numerike dhe kategorike:
@@ -112,7 +112,7 @@ Gjithashtu, një heatmap vizualizon mungesat për çdo rresht dhe kolonë të da
 ![img_4.png](Results/img_4.png)![img_5.png](Results/img_5.png)<br>
 ![img_6.png](Results/img_6.png)
 
-**Foto 6: Zëvendësimi i Karaktereve të Shqipërisë në Kolonën 'Kodi Tarifor'**
+**Zëvendësimi i Karaktereve të Shqipërisë në Kolonën 'Kodi Tarifor'**
 
 **Përshkrim:**<br>
 Ky kod zëvendëson karakteret speciale të shqipes në kolonën Kodi Tarifor me karaktere ASCII të zakonshme. Përdorimi i funksionit replace_albanian_chars ndihmon në normalizimin e të dhënave për përpunim më të thjeshtë dhe kompatibilitet më të mirë me algoritmet e përpunimit të tekstit.<br>
