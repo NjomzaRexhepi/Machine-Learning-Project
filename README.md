@@ -118,43 +118,43 @@ Gjithashtu, një heatmap vizualizon mungesat për çdo rresht dhe kolonë të da
 Ky kod zëvendëson karakteret speciale të shqipes në kolonën Kodi Tarifor me karaktere ASCII të zakonshme. Përdorimi i funksionit replace_albanian_chars ndihmon në normalizimin e të dhënave për përpunim më të thjeshtë dhe kompatibilitet më të mirë me algoritmet e përpunimit të tekstit.<br>
 ![img_7.png](Results/img_7.png)
 
-**Foto 7: Shpërndarja e Kategorive për kolonën 'Origjina'**
+**Shpërndarja e Kategorive për kolonën 'Origjina'**
 
 **Përshkrim:**<br>
 Ky kod vizualizon shpërndarjen e kategorive për kolonën Origjina me një diagramë countplot, duke treguar frekuencën e secilës kategori. Gjithashtu, ai printon numrin dhe përqindjet e kategorive, duke ndihmuar në analizën e shpërndarjes së vlerave të kategorive.<br>
 ![img_8.png](Results/img_8.png)![img_9.png](Results/img_9.png)
 
-**Foto 8: Scatter Plot: Sasia vs. Vlera Mallrave**
+**Scatter Plot: Sasia vs. Vlera Mallrave**
 
 **Përshkrim:**<br>
 Ky diagram scatter tregon lidhjen ndërmjet kolonave Sasia (sasia e mallrave) dhe Vlera Mallrave (vlera e mallrave). Ky vizualizim ndihmon për të parë nëse ka ndonjë tendencë ose lidhje midis këtyre dy variablave në dataset.<br>
 ![img_10.png](Results/img_10.png)
 
-**Foto 9: Matrica e Korrelacionit**
+**Matrica e Korrelacionit**
 
 **Përshkrim:**<br>
 Ky kod krijon një matrice korelacioni për kolonat Sasia, Vlera Mallrave, Netweight, Taksa Doganës, dhe Taksa TVSH-së. Matrica tregon lidhjen midis këtyre variablave numerikë, duke ndihmuar në identifikimin e korelacioneve pozitive ose negative midis tyre.<br>
 ![img_11.png](Results/img_11.png)
 
-**Foto 10: Parashikimi i Mungesave në Kolonën 'Sasia'**
+**Parashikimi i Mungesave në Kolonën 'Sasia'**
 
 **Përshkrim:**<br>
 Trajtimi i mungesave në kolonën Sasia duke përdorur një model RandomForestRegressor për të parashikuar vlerat e munguara. Fillimisht, ai ndan datasetin në dy pjesë: një pa mungesa dhe një me mungesa. Pastaj, përdor StandardScaler për normalizimin e të dhënave dhe përdor Random Forest për të parashikuar vlerat e munguara. Në fund, ai bashkon datasetin dhe printon numrin e vlerave të parashikuara që janë negative.<br>
 ![img_12.png](Results/img_12.png)
 
-**Foto 11: Identifikimi i Përjashtuesve për Kolonën 'Sasia'**
+**Identifikimi i Përjashtuesve për Kolonën 'Sasia'**
 
 **Përshkrim:**<br>
 Përdoret metoda IQR (Interquartile Range) për të identifikuar përjashtuesit (outliers) në kolonën Sasia. IQR llogaritet si diferenca midis Q3 (75% e percentilit) dhe Q1 (25% e percentilit). Vlerat që janë më të vogla se Q1 - 1.5 * IQR ose më të mëdha se Q3 + 1.5 * IQR konsiderohen përjashtues. Ky proces ndihmon në zbulimin e vlerave ekstreme që mund të ndikojnë në analizat e mëtejshme.<br>
 ![img_13.png](Results/img_13.png)
 
-**Foto 12: Përjashtuesit pas Trajtimit për Kolonën 'Sasia'**
+**Përjashtuesit pas Trajtimit për Kolonën 'Sasia'**
 
 **Përshkrim:**<br>
 Ky kod përdor metodën IQR (Interquartile Range) për të identifikuar dhe filtruar përjashtuesit në kolonën Sasia pas trajtimit. Vlerat jashtë kufijve të llogaritur nga IQR (më të ulëta se Q1 - 1.5 * IQR ose më të larta se Q3 + 1.5 * IQR) konsiderohen si përjashtues dhe janë shfaqur në rezultatin përfundimtar.<br>
 ![img_15.png](Results/img_15.png)
 
-**Foto 13: Koeficienti i Anueshmërisë për Kolonat Numerike**
+**Koeficienti i Anueshmërisë për Kolonat Numerike**
 
 **Përshkrim:**<br>
 Ky kod llogarit koeficientin e anueshmërisë për kolonat numerike në dataset. Koeficienti i anueshmërisë mat shpërndarjen e të dhënave dhe ndihmon në identifikimin e asimetrisë së shpërndarjes:
@@ -164,16 +164,16 @@ Ky kod llogarit koeficientin e anueshmërisë për kolonat numerike në dataset.
 
 ![img_16.png](Results/img_16.png)
 
-**Foto 14: Përditësimi i Kolonës 'Origjina'**
+**Përditësimi i Kolonës 'Origjina'**
 
 **Përshkrim:**<br>
 Ky kod përditëson kolonën Origjina duke ndarë vlerat që janë të ndara me " - " dhe duke ruajtur vetëm pjesën e dytë (pas " - "). Kjo ndihmon në përpunimin dhe normalizimin e të dhënave kur ekzistojnë elementë të ndarë në një fushë që kërkojnë analizë të veçantë.<br>
 ![img_17.png](Results/img_17.png)
 
-**Foto 15: Analiza Vizuale për Kolonat Numerike**
+**Analiza Vizuale për Kolonat Numerike**
 
 **Përshkrim:**<br>
-Ky kod krijon dy grafike për secilën kolone numerike në dataset:
+Dy grafike për secilën kolone numerike në dataset:
 1. Kernel Density Estimation (KDE) për të treguar shpërndarjen e mundshme të të dhënave dhe për të vlerësuar normalitetin e shpërndarjes.
 2. Box Plot për të analizuar shpërndarjen dhe mundësinë e pranisë së përjashtuesve (outliers). Të dyja këto grafike ndihmojnë në vlerësimin e natyrës së shpërndarjes së të dhënave.
 ![img_19.png](Results/img_19.png)
@@ -181,7 +181,7 @@ Ky kod krijon dy grafike për secilën kolone numerike në dataset:
 ![img_21.png](Results/img_21.png)
 ![img_22.png](Results/img_22.png)
 
-**Foto 16: Histogrami i Shpërndarjes së të Dhënave për 'Netweight'**
+**Histogrami i Shpërndarjes së të Dhënave për 'Netweight'**
 
 **Përshkrim:**<br>
 Kjo figurë vizualizon shpërndarjen e të dhënave për kolonën Netweight përpara dhe pas pastrimit të të dhënave.
