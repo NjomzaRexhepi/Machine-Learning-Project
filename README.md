@@ -196,14 +196,14 @@ Kjo figurë vizualizon shpërndarjen e të dhënave për kolonën Netweight për
 
 Në këtë fazë, ne fokusohemi në trajnimin e modeleve të ndryshme të Machine Learning duke përdorur të dhënat e përpunuara nga Faza 1. Qëllimi kryesor është të zgjedhim modelin më të mirë që mund të parashikojë me saktësi rezultatin e dëshiruar.
 
-Hapat kryesorë të kësaj faze:
-Ndarja e të Dhënave
+###Hapat kryesorë të kësaj faze:
+#### Ndarja e të Dhënave
 
 Të dhënat ndahen në grupe trajnimi dhe testimi (p.sh., 80% për trajnim, 20% për testim).
 
 Mund të përdoret edhe validimi në k-fold cross-validation për të rritur besueshmërinë e rezultateve.
 
-Zgjedhja e Modeleve
+#### Zgjedhja e Modeleve
 
 Testojmë algoritme të ndryshme të Machine Learning si:
 
