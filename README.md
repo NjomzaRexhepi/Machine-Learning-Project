@@ -60,7 +60,7 @@ Ky dataset përfaqëson të dhëna për importet në Kosovë për një periudhë
 **Përmbledhje e Dataset-it dhe Tipet e të Dhënave**
 
 **Përshkrim:<br>**
-Kjo foto paraqet një përmbledhje të strukturës së dataset-it, e cila përmban gjithsej 233,638 rreshta dhe 11 kolona. Kolonat janë të ndara sipas tipeve të të dhënave:
+Përmbledhje e strukturës së dataset-it, e cila përmban gjithsej 233,638 rreshta dhe 11 kolona. Kolonat janë të ndara sipas tipeve të të dhënave:
 
 * **Integer (int64)**: VITI dhe MUAJI, që përfaqësojnë vitin dhe muajin përkatës.<br>
 * **Float (float64)**: Kolona numerike si Sasia, Vlera Mallrave, Netweight, dhe kolonat e ndryshme të taksave (Taksa Doganës, Taksa Akcizës, Taksa TVSH-së) përmbajnë të dhëna numerike vazhduese.<br>
@@ -72,7 +72,7 @@ Njohja e tipeve të të dhënave është një hap thelbësor përpara përpunimi
 **Statistikat Përshkruese të Kolonave Numerike**
 
 **Përshkrim:**<br>
-Kjo foto shfaq statistikat përshkruese të kolonave numerike në dataset, të gjeneruara përmes funksionit df.describe(). Ky hap ndihmon për të kuptuar shpërndarjen dhe karakteristikat kryesore të të dhënave numerike:<br>
+Statistikat përshkruese të kolonave numerike në dataset, të gjeneruara përmes funksionit df.describe(). Ky hap ndihmon për të kuptuar shpërndarjen dhe karakteristikat kryesore të të dhënave numerike:<br>
 * **count**: Numri i vlerave jo-munguese për secilën kolonë.
 * **mean**: Mesatarja e vlerave në kolonë.
 * **std**: Devijimi standard, që tregon shpërndarjen e të dhënave rreth mesatares.
@@ -86,7 +86,7 @@ Këto statistika ndihmojnë në identifikimin e vlerave jashtëzakonisht të lar
 **Statistikat Përshkruese për Kolonat Kategorike (Objekt)**
 
 **Përshkrim:**<br>
-Kjo foto paraqet statistikat përshkruese për kolonat me tip object në dataset, të gjeneruara me df.describe(include=['O']). Këto kolona zakonisht përmbajnë vlera tekstuale ose kategorike, si Regjimi, Origjina dhe Kodi Tarifor.<br>
+Statistikat përshkruese për kolonat me tip object në dataset, të gjeneruara me df.describe(include=['O']). Këto kolona zakonisht përmbajnë vlera tekstuale ose kategorike, si Regjimi, Origjina dhe Kodi Tarifor.<br>
 * **count**: Numri total i vlerave jo-munguese për secilën kolonë.
 * **unique**: Numri i vlerave të ndryshme (unike) në kolonë.
 * **top**: Vlera që shfaqet më shpesh (modaliteti).
@@ -97,13 +97,13 @@ Kjo foto paraqet statistikat përshkruese për kolonat me tip object në dataset
 **Rreshtat e Përsëritur**
 
 **Përshkrim:**
-Kjo foto tregon përqindjen e rreshtave të përsëritur në dataset, e llogaritur me df.duplicated(). Rreshtat e përsëritur mund të ndikojnë negativisht në analizë dhe zakonisht duhen hequr për të ruajtur saktësinë e të dhënave.<br>
+Përqindja e rreshtave të përsëritur në dataset, e llogaritur me df.duplicated(). Rreshtat e përsëritur mund të ndikojnë negativisht në analizë dhe zakonisht duhen hequr për të ruajtur saktësinë e të dhënave.<br>
 ![img_3.png](Results/img_3.png)
 
 **Mungesa e të Dhënave në Kolonat Numerike dhe Kategorike**
 
 **Përshkrim:**<br>
-Kjo foto tregon analizën e mungesës së të dhënave në dataset për kolonat numerike dhe kategorike:
+Analiza e mungesës së të dhënave në dataset për kolonat numerike dhe kategorike:
 
 * **Kolonat Numerike**: Mungesat janë llogaritur me df.select_dtypes(include=['number']).isnull().sum().
 * **Kolonat Kategorike**: Mungesat janë llogaritur përmes df.select_dtypes(include=['object', 'category']).isnull().sum().
