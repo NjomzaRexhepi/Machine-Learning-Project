@@ -215,6 +215,30 @@ Mënyra të thella të të nxënit (Neural Networks)
 
 Metoda klasike (SVM, k-NN)
 
+## Rezultatet nga faza 2:
+
+![image](https://github.com/user-attachments/assets/5d2a6e9f-ce8e-4fcc-8dfa-7d2c19d41c00)<br>
+
+![image](https://github.com/user-attachments/assets/1e3cb4d9-02d0-40fb-8a18-075f911a8ccc)<br>
+
+![image](https://github.com/user-attachments/assets/24222ad5-47e6-44ad-b41d-02c8a87bbeff)<br>
+
+![image](https://github.com/user-attachments/assets/13198de3-cc49-4bce-a1d8-768a1d712730)<br>
+
+![image](https://github.com/user-attachments/assets/cb10cf2a-fd55-4597-b30b-b11559c09a0c)<br>
+
+![image](https://github.com/user-attachments/assets/cd476a26-1c06-4466-b1e6-68dcf1378990)<br>
+
+![image](https://github.com/user-attachments/assets/00953d57-fa71-4c64-a4ef-1e4582706376)<br>
+
+![image](https://github.com/user-attachments/assets/ce47bd88-d8e4-4d1a-8789-779a357906b4)<br>
+
+
+
+
+
+
+
 
 
 
