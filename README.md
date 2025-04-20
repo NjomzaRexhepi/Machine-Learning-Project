@@ -2,7 +2,7 @@
 
 <table border="0">
  <tr>
-    <td><img src="Results/img1.png" width="370" height="200" alt="University Logo" /></td>
+    <td><img src="Results/img1.png" width="470" height="200" alt="University Logo" /></td>
     <td>
       <strong>Titulli i projektit</strong>: Bilanci tregtar në Doganat e Kosovës<br>
       <strong>Universiteti</strong>: Universiteti i Prishtinës "Hasan Prishtina"<br>
@@ -220,6 +220,8 @@ Testimi është bërë me anë të algoritmeve të ndryshme të Machine Learning
 
 ## Rezultatet nga faza 2:
 
+**Përshkrim:**<br>
+Krijimi i një kolonë të re në DataFrame-in df me emrin 'Total_Tax', e cila përfaqëson shumën totale të taksave për çdo rresht. Vlera e kësaj kolone llogaritet duke mbledhur së bashku tre kolona ekzistuese: 'Taksa Doganës', 'Taksa Akcizës' dhe 'Taksa TVSH-së'. Pra, për çdo rresht të tabelës, kodi merr shumën e këtyre tre taksave dhe e ruan atë në kolonën 'Total_Tax'. Kjo është e dobishme për të pasur një përmbledhje të përgjithshme të shumës së taksave që aplikohen për secilin transaksion apo artikull në të dhënat e analizës.
 ![image](https://github.com/user-attachments/assets/5d2a6e9f-ce8e-4fcc-8dfa-7d2c19d41c00)<br>
 
 ![image](https://github.com/user-attachments/assets/1e3cb4d9-02d0-40fb-8a18-075f911a8ccc)<br>
