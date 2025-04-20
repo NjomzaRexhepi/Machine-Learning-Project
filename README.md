@@ -1,9 +1,8 @@
 # Importimi tregtar në Doganat e Kosovës
 
-![img.png](Results/img1.png)
 <table border="0">
  <tr>
-    <td><img src="Results/img1.png" width="150" alt="University Logo" /></td>
+    <td><img src="Results/img1.png" width="250" height="250" alt="University Logo" /></td>
     <td>
       <strong>Titulli i projektit</strong>: Bilanci tregtar në Doganat e Kosovës<br>
       <strong>Universiteti</strong>: Universiteti i Prishtinës "Hasan Prishtina"<br>
