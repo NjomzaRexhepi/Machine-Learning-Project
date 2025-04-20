@@ -1,13 +1,19 @@
 # Importimi tregtar në Doganat e Kosovës
-<strong>Titulli i projektit</strong>: Bilanci tregtar në Doganat e Kosovës<br>
-<strong>Universiteti</strong>: Universiteti i Prishtinës "Hasan Prishtina"<br>
-<strong>Fakulteti</strong>: Fakulteti i Inxhinierisë Elektrike dhe Kompjuterike, Programi: Inxhinieri Kompjuterike dhe Softuerike, 2024/25<br>
-<strong>Niveli</strong>: Master<br>
-<strong>Lënda</strong>: Machine Learning<br>
-<strong>Mësimdhënësit e lëndës</strong>: Prof. Dr. Lule Ahmedi, Ass. Dr. Mërgim Hoti<br>
-<strong>Punuar nga</strong>: Erëblina Berisha, Njomza Rexhepi
 
-![img.png](Results/img1.png)
+<table border="0">
+ <tr>
+    <td><img src="Results/img1.png" width="250" height="250" alt="University Logo" /></td>
+    <td>
+      <strong>Titulli i projektit</strong>: Bilanci tregtar në Doganat e Kosovës<br>
+      <strong>Universiteti</strong>: Universiteti i Prishtinës "Hasan Prishtina"<br>
+      <strong>Fakulteti</strong>: Fakulteti i Inxhinierisë Elektrike dhe Kompjuterike, Programi: Inxhinieri Kompjuterike dhe Softuerike, 2024/25<br>
+      <strong>Niveli</strong>: Master<br>
+      <strong>Lënda</strong>: Machine Learning<br>
+      <strong>Mësimdhënësit e lëndës</strong>: Prof. Dr. Lule Ahmedi, Ass. Dr. Mërgim Hoti<br>
+      <strong>Punuar nga</strong>: Erëblina Berisha, Njomza Rexhepi
+    </td>
+ </tr>
+</table>
 
 Ky repository përmban projektin semestral për lëndën Machine Learning, me fokus në analizën e të dhënave lidhur me importet në Kosovë për vitet 2023-2024.
 Burimi i të dhënave: Dogana e Kosovës - Open Data
@@ -214,6 +220,30 @@ Pemë vendimesh (Decision Trees, Random Forest, XGBoost)
 Mënyra të thella të të nxënit (Neural Networks)
 
 Metoda klasike (SVM, k-NN)
+
+## Rezultatet nga faza 2:
+
+![image](https://github.com/user-attachments/assets/5d2a6e9f-ce8e-4fcc-8dfa-7d2c19d41c00)<br>
+
+![image](https://github.com/user-attachments/assets/1e3cb4d9-02d0-40fb-8a18-075f911a8ccc)<br>
+
+![image](https://github.com/user-attachments/assets/24222ad5-47e6-44ad-b41d-02c8a87bbeff)<br>
+
+![image](https://github.com/user-attachments/assets/13198de3-cc49-4bce-a1d8-768a1d712730)<br>
+
+![image](https://github.com/user-attachments/assets/cb10cf2a-fd55-4597-b30b-b11559c09a0c)<br>
+
+![image](https://github.com/user-attachments/assets/cd476a26-1c06-4466-b1e6-68dcf1378990)<br>
+
+![image](https://github.com/user-attachments/assets/00953d57-fa71-4c64-a4ef-1e4582706376)<br>
+
+![image](https://github.com/user-attachments/assets/ce47bd88-d8e4-4d1a-8789-779a357906b4)<br>
+
+
+
+
+
+
 
 
 
