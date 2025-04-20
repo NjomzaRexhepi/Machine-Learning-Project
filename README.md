@@ -1,13 +1,20 @@
 # Importimi tregtar në Doganat e Kosovës
-<strong>Titulli i projektit</strong>: Bilanci tregtar në Doganat e Kosovës<br>
-<strong>Universiteti</strong>: Universiteti i Prishtinës "Hasan Prishtina"<br>
-<strong>Fakulteti</strong>: Fakulteti i Inxhinierisë Elektrike dhe Kompjuterike, Programi: Inxhinieri Kompjuterike dhe Softuerike, 2024/25<br>
-<strong>Niveli</strong>: Master<br>
-<strong>Lënda</strong>: Machine Learning<br>
-<strong>Mësimdhënësit e lëndës</strong>: Prof. Dr. Lule Ahmedi, Ass. Dr. Mërgim Hoti<br>
-<strong>Punuar nga</strong>: Erëblina Berisha, Njomza Rexhepi
 
 ![img.png](Results/img1.png)
+<table border="0">
+ <tr>
+    <td><img src="Results/img1.png" width="150" alt="University Logo" /></td>
+    <td>
+      <strong>Titulli i projektit</strong>: Bilanci tregtar në Doganat e Kosovës<br>
+      <strong>Universiteti</strong>: Universiteti i Prishtinës "Hasan Prishtina"<br>
+      <strong>Fakulteti</strong>: Fakulteti i Inxhinierisë Elektrike dhe Kompjuterike, Programi: Inxhinieri Kompjuterike dhe Softuerike, 2024/25<br>
+      <strong>Niveli</strong>: Master<br>
+      <strong>Lënda</strong>: Machine Learning<br>
+      <strong>Mësimdhënësit e lëndës</strong>: Prof. Dr. Lule Ahmedi, Ass. Dr. Mërgim Hoti<br>
+      <strong>Punuar nga</strong>: Erëblina Berisha, Njomza Rexhepi
+    </td>
+ </tr>
+</table>
 
 Ky repository përmban projektin semestral për lëndën Machine Learning, me fokus në analizën e të dhënave lidhur me importet në Kosovë për vitet 2023-2024.
 Burimi i të dhënave: Dogana e Kosovës - Open Data
