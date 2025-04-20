@@ -2,7 +2,7 @@
 
 <table border="0">
  <tr>
-    <td><img src="Results/img1.png" width="250" height="250" alt="University Logo" /></td>
+    <td><img src="Results/img1.png" width="370" height="200" alt="University Logo" /></td>
     <td>
       <strong>Titulli i projektit</strong>: Bilanci tregtar në Doganat e Kosovës<br>
       <strong>Universiteti</strong>: Universiteti i Prishtinës "Hasan Prishtina"<br>
@@ -211,15 +211,12 @@ Mund të përdoret edhe validimi në k-fold cross-validation për të rritur bes
 
 #### Zgjedhja e Modeleve
 
-Testojmë algoritme të ndryshme të Machine Learning si:
+Testimi është bërë me anë të algoritmeve të ndryshme të Machine Learning si:
 
-Modele lineare (regresion linear, logistic regression)
-
-Pemë vendimesh (Decision Trees, Random Forest, XGBoost)
-
-Mënyra të thella të të nxënit (Neural Networks)
-
-Metoda klasike (SVM, k-NN)
+* Modele lineare (regresion linear, logistic regression)
+* Pemë vendimesh (Decision Trees, Random Forest, XGBoost)
+* Mënyra të thella të të nxënit (Neural Networks)
+* Metoda klasike (SVM, k-NN)
 
 ## Rezultatet nga faza 2:
 
