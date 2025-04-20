@@ -221,6 +221,8 @@ Testimi është bërë me anë të algoritmeve të ndryshme të Machine Learning
 * Mënyra të thella të të nxënit (Neural Networks)
 * Metoda klasike (SVM, k-NN)
 
+Për modele te pambikëqyrura regresioni kërkon domosdoshmërisht të dhëna me etiketa (y) për të mësuar marrëdhëniet midis veçorive (X) dhe vlerave që duhen parashikuar (y). Pambikëqyrur do të thotë pa etiketa – pra, pa y. Regresioni pa y është i pamundur, pasi nuk ka objektiv për të minimizuar gabimet.
+
 **Qëllimi i Parashikimit**  
 Ndërtimi i një modeli që mund të vlerësojë taksat e importit bazuar në:
 
