@@ -343,6 +343,12 @@ Testimi i performancës së modelit K-Nearest Neighbors (KNN) për parashikimin 
 Ndjeshmëria e modelit XGBoost ndaj ndryshimeve të learning rate (shkalla e të mësuarit), një parametër kyç që ndikon në mënyrën se si modeli mëson nga të dhënat. Për secilën vlerë të learning rate nga lista [0.001, 0.01, 0.05, 0.1, 0.2, 0.3], krijohet dhe trajnohet një model XGBRegressor me 200 pemë dhe random_state=42. Pas trajnimit, bëhen parashikimet dhe llogaritet RMSE për secilën vlerë. Vlerat e RMSE ruhen dhe vizatohen në një grafik ku boshti X është në shkallë logaritmike, gjë që lejon të shihet më qartë ndikimi i vlerave të vogla. Ky vizualizim ndihmon të përcaktohet cila shkallë e të mësuarit jep performancën më të mirë për modelin.
 <br>![img_16.png](Results/img_16__.png)
 
+Faza 3: Neural networks and deep learning
+
+Hapat kryesorë të kësaj faze:
+
+Rezultatet nga faza 3:
+
 
 
 
