@@ -337,11 +337,17 @@ Modeli **Support Vector Regression (SVR)** nuk u përfshi në rezultatet përfun
 Testimi i performancës së modelit K-Nearest Neighbors (KNN) për parashikimin e taksës totale, duke eksperimentuar me vlera të ndryshme të K (numri i fqinjëve më të afërt). Fillimisht, krijohet një listë me vlerat e K nga 1 deri në 30. Për secilën vlerë të K, trajnohet një model KNN me të dhënat trajnuese (X_train, y_train), bëhen parashikime mbi X_test, dhe llogaritet RMSE (Root Mean Squared Error) për të vlerësuar saktësinë e modelit. RMSE për secilin K ruhet në një listë. Në fund, përdoret një grafik për të vizualizuar si ndryshon RMSE në varësi të vlerës së K, duke ndihmuar në zgjedhjen e vlerës optimale të K që minimizon gabimin.
 <br>![img_15.png](Results/img_15__.png)
 
-**K-Nearest Neighbors (KNN)**
+**XGBoost**
 
 **Përshkrim:**<br>
 Ndjeshmëria e modelit XGBoost ndaj ndryshimeve të learning rate (shkalla e të mësuarit), një parametër kyç që ndikon në mënyrën se si modeli mëson nga të dhënat. Për secilën vlerë të learning rate nga lista [0.001, 0.01, 0.05, 0.1, 0.2, 0.3], krijohet dhe trajnohet një model XGBRegressor me 200 pemë dhe random_state=42. Pas trajnimit, bëhen parashikimet dhe llogaritet RMSE për secilën vlerë. Vlerat e RMSE ruhen dhe vizatohen në një grafik ku boshti X është në shkallë logaritmike, gjë që lejon të shihet më qartë ndikimi i vlerave të vogla. Ky vizualizim ndihmon të përcaktohet cila shkallë e të mësuarit jep performancën më të mirë për modelin.
 <br>![img_16.png](Results/img_16__.png)
+
+Faza 3: Neural networks and deep learning
+
+Hapat kryesorë të kësaj faze:
+
+Rezultatet nga faza 3:
 
 
 
