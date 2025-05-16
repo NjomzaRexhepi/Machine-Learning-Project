@@ -399,6 +399,8 @@ Bazuar në performancë (p.sh., RMSE më i ulët në setin e testimit), përzgji
 * **Identifikimi i rasteve anomale në deklarime** (outliers)
 * **Testimi i skenarëve të ndryshëm politikash importi**
 
+## Faza e 3 - Ritrajnimi i modelit
+
 #### Rezultatet nga faza 3:
 
 
