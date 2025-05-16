@@ -345,25 +345,17 @@ Ndjeshmëria e modelit XGBoost ndaj ndryshimeve të learning rate (shkalla e të
 
 Këtu është **Faza 3** e projektit tënd, e përgatitur në të njëjtin stil dhe strukturë si Faza 2 që dhashë më sipër. Kjo fazë përfshin **zbatimin e algoritmeve të të nxënit të thellë (Deep Learning)** dhe **vizualizimin** e performancës së tyre.
 
----
-
 ### **Faza 3: Zbatimi i Modeleve të Thelluara dhe Vizualizimi i Rezultateve**
 
 Në këtë fazë, fokusi është në aplikimin e **algoritmeve të të nxënit të thellë (Deep Learning)** për të përmirësuar saktësinë e parashikimit të **taksave të importit (Total\_Tax)** për mallrat që hyjnë në Kosovë. Duke përdorur të dhënat e përpunuara dhe rezultatet nga Faza 2, qëllimi është të ndërtohen modele më komplekse që mund të kapin marrëdhënie jo-lineare midis veçorive hyrëse dhe objektivit.
 
----
-
 #### **Hapat Kryesorë të Fazës 3:**
-
----
 
 #### **1. Përgatitja e të Dhënave për Deep Learning**
 
 * **Normalizimi i të dhënave**: Të gjitha veçoritë numerike normalizohen me teknika si MinMaxScaler ose StandardScaler.
 * **Kodimi i kategorive**: Vendet e origjinës dhe çdo atribut tjetër kategorik kodohen me OneHotEncoding ose Embedding për përdorim në rrjete nervore.
 * **Ndarja e të dhënave**: Të dhënat ndahen në **train/validation/test**, zakonisht në raportin 70/15/15.
-
----
 
 #### **2. Ndërtimi i Modeleve të Thelluara**
 
@@ -379,14 +371,10 @@ Zbatohen disa arkitektura të rrjeteve nervore për regresion:
 
 * **Rrjete të përsëritura (RNN / LSTM)** *(nëse të dhënat janë të varura nga koha – p.sh., muajt)*
 
----
-
 #### **3. Trajnimi dhe Vlerësimi i Modeleve**
 
 * Trajnimi bëhet me **batch training** (zakonisht 32 ose 64 shembuj për batch) dhe **early stopping** për të shmangur mbingarkimin (overfitting).
 * Vlerësimi kryhet me **metriken MSE, RMSE, MAE dhe R²**.
-
----
 
 #### **4. Vizualizimi i Rezultateve**
 
@@ -397,8 +385,6 @@ Përdoren grafiqe për të interpretuar performancën:
 * **Grafiku i rëndësisë së veçorive (Feature Importance)** për interpretimin e modelit.
 * **Grafiqe krahasuese të performancës** mes modeleve klasike (Faza 2) dhe Deep Learning (Faza 3).
 
----
-
 #### **5. Përzgjedhja e Modelit Më të Mirë**
 
 Bazuar në performancë (p.sh., RMSE më i ulët në setin e testimit), përzgjidhet modeli më i përshtatshëm për:
@@ -407,15 +393,13 @@ Bazuar në performancë (p.sh., RMSE më i ulët në setin e testimit), përzgji
 * Integrim në sistemet ekzistuese të doganës.
 * Simulime të ndryshimeve në politika fiskale.
 
----
-
 ### **Përdorime Praktike të Modelit të Zhvilluar**
 
 * **Parashikimi i të ardhurave mujore nga dogana**
 * **Identifikimi i rasteve anomale në deklarime** (outliers)
 * **Testimi i skenarëve të ndryshëm politikash importi**
 
-## Rezultatet nga faza 3:
+#### Rezultatet nga faza 3:
 
 
 
