@@ -393,17 +393,6 @@ Bazuar në performancë (p.sh., RMSE më i ulët në setin e testimit), përzgji
 * Integrim në sistemet ekzistuese të doganës.
 * Simulime të ndryshimeve në politika fiskale.
 
-### **Përdorime Praktike të Modelit të Zhvilluar**
-
-* **Parashikimi i të ardhurave mujore nga dogana**
-* **Identifikimi i rasteve anomale në deklarime** (outliers)
-* **Testimi i skenarëve të ndryshëm politikash importi**
-
-## Faza e 3 - Ritrajnimi i modelit
-
-Qëllimi kryesor i kësaj faze është të ruajë ose përmirësojë performancën e modelit gjatë kohës, duke siguruar që ai të mbetet relevant dhe i përshtatshëm për detyrën për të cilën është ndërtuar.
-
-#### Rezultatet nga faza 3:
 
 
 
