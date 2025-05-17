@@ -401,7 +401,7 @@ Bazuar në performancë (p.sh., RMSE më i ulët në setin e testimit), përzgji
 
 ## Faza e 3 - Ritrajnimi i modelit
 
-Pas trajnimit fillestar të modelit dhe vlerësimit të performancës së tij në të dhënat e testimit, zakonisht lind nevoja për përmirësimin e mëtejshëm të saktësisë dhe generalizimit të modelit. Kjo fazë njihet si ritrajnimi i modelit (retraining) dhe është një hap thelbësor në zhvillimin e një sistemi të besueshëm të machine learning.
+Qëllimi kryesor i kësaj faze është të ruajë ose përmirësojë performancën e modelit gjatë kohës, duke siguruar që ai të mbetet relevant dhe i përshtatshëm për detyrën për të cilën është ndërtuar.
 
 #### Rezultatet nga faza 3:
 
