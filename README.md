@@ -431,7 +431,7 @@ Në këtë rast, modeli i parë i LightGBM me parametra të thjeshtë ka rezultu
 
 ![img__9.png](Results/img__9.png)
 
-![img__10.png](Results/img__10.png)
+![img__29.png](Results/img__29.png)
 
 **HistGradientBoostingRegressor**
 
@@ -455,7 +455,7 @@ Modeli i parë i regresionit Lasso ka performuar më mirë sesa versioni i dytë
 
 ![img__17.png](Results/img__17.png)
 
-![img__18.png](Results/img__18.png)
+![img__28.png](Results/img__28.png)
 
 ![img__19.png](Results/img__19.png)
 
@@ -465,7 +465,7 @@ Modeli i parë i regresionit Lasso ka performuar më mirë sesa versioni i dytë
 
 Ky fragment kodi realizon një analizë vizuale të vlerës totale të mallrave të importuara sipas vendit të origjinës. Fillimisht, të dhënat grupohen duke përdorur kolonën **'Origjina'**, dhe për secilin vend llogaritet shuma e vlerës së mallrave (`'Vlera Mallrave'`). Më pas, këto vlera renditen në mënyrë zbritëse për të identifikuar vendet me vlerën më të lartë të importeve. Rezultati paraqitet me një **grafik shtyllor (barplot)** duke përdorur bibliotekën `seaborn`, ku boshti horizontal përfaqëson vendet e origjinës dhe boshti vertikal paraqet vlerën totale të mallrave. Ky vizualizim ndihmon në identifikimin e vendeve që kontribuojnë më shumë në vlerën totale të importit, duke ofruar njohuri të dobishme për analiza ekonomike ose doganore.
 
-![img__20.png](Results/img__20.png)
+![img__27.png](Results/img__27.png)
 
 **Trendet mujore të vlerës së mallrave të importuara**
 
