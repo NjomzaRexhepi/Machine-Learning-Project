@@ -405,12 +405,112 @@ Qëllimi kryesor i kësaj faze është të ruajë ose përmirësojë performanc�
 
 #### Rezultatet nga faza 3:
 
+**XGBRegressor**
 
+**Përshkrim:**<br>
 
+Bazuar në rezultatet e dy modeleve të XGBoost që ke përdorur, versioni me parametra të personalizuar (**max\_depth=10, subsample=0.85, colsample\_bytree=0.8, gamma=0.1, reg\_alpha=0.01, etj.**) jep performancë më të mirë sesa modeli i thjeshtë me vetëm disa parametra bazë (**max\_depth=6**). Kjo për shkak se konfigurimi i detajuar i parametrave lejon modelin të kapë marrëdhënie më komplekse në të dhëna, të balancojë overfitting me regularizim (reg\_alpha dhe reg\_lambda), si dhe të përmirësojë generalizimin përmes teknikave si *subsampling* dhe *colsample\_bytree*. Si rezultat, ky model zakonisht arrin **RMSE më të ulët** dhe **R² më të lartë**, duke reflektuar parashikime më të sakta dhe më pak gabime. Vizualisht, kjo vërehet në grafikun “Actual vs Predicted”, ku pikat janë më afër vijës ideale, dhe në histogramin e rezidualëve që tregon shpërndarje më të ngushtë të gabimeve. Prandaj, modeli i dytë është më i avancuar dhe më i përshtatshëm për detyra komplekse si parashikimi i taksave të importit në kontekste reale.
 
+![img__3.png](Results/img__3.png)</br>
 
+![img__4.png](Results/img__4.png)
 
+![img__5.png](Results/img__5.png)
 
+![img__6.png](Results/img__6.png)
 
+**LGBMRegressor**
 
+**Përshkrim:**<br>
 
+Në këtë rast, modeli i parë i LightGBM me parametra të thjeshtë ka rezultuar më i saktë sesa modeli me parametra të sintonizuar manualisht. Kjo ndodh sepse kufizimet e vendosura në modelin e dytë, si `subsample`, `colsample_bytree` dhe mungesa e regularizimit (`reg_alpha`, `reg_lambda`), mund të kenë shkaktuar nën-përshtatje (underfitting), duke e kufizuar aftësinë e modelit për të kapur marrëdhëniet komplekse në të dhëna. Përkundrazi, konfigurimi më fleksibël i modelit të parë ka lejuar një përshtatje më efektive, duke rezultuar në vlera më të ulëta të gabimit (RMSE) dhe një koeficient më të lartë të përshtatjes (R²). Kjo tregon se performanca më e mirë nuk varet gjithmonë nga numri i parametrave, por nga balancimi i saktë i tyre në raport me natyrën e të dhënave.
+
+![img__7.png](Results/img__7.png)
+
+![img__8.png](Results/img__8.png)
+
+![img__9.png](Results/img__9.png)
+
+![img__10.png](Results/img__10.png)
+
+**HistGradientBoostingRegressor**
+
+**Përshkrim:**<br>
+
+![img__15.png](Results/img__15.png)
+
+![img__12.png](Results/img__12.png)
+
+![img__13.png](Results/img__13.png)
+
+![img__14.png](Results/img__14.png)
+
+**Lasso**
+
+**Përshkrim:**<br>
+
+Modeli i parë i regresionit Lasso ka performuar më mirë sesa versioni i dytë, ndonëse përdorin të njëjtën vlerë për hiperparametrin `alpha=0.1`. Arsyeja kryesore qëndron te konfigurimi më i detajuar i modelit të parë, ku janë përcaktuar qartë parametra shtesë si `max_iter`, `tol`, `selection`, dhe `random_state`, të cilët ndikojnë në stabilitetin, konvergjencën dhe përsëritshmërinë e procesit të trajnimit. Kjo ka mundësuar një përputhje më të mirë të modelit me të dhënat, duke ulur gabimin mesatar (RMSE) dhe duke rritur R² në krahasim me modelin e dytë, i cili përdor vetëm konfigurimin bazë. Prandaj, personalizimi i parametrave i ka dhënë modelit të parë një avantazh të qartë në saktësi dhe performancë.
+
+![img__16.png](Results/img__16.png)
+
+![img__17.png](Results/img__17.png)
+
+![img__18.png](Results/img__18.png)
+
+![img__19.png](Results/img__19.png)
+
+**Vlera totale e mallrave të importuara sipas vendit të origjinës**
+
+**Përshkrim:**<br>
+
+Ky fragment kodi realizon një analizë vizuale të vlerës totale të mallrave të importuara sipas vendit të origjinës. Fillimisht, të dhënat grupohen duke përdorur kolonën **'Origjina'**, dhe për secilin vend llogaritet shuma e vlerës së mallrave (`'Vlera Mallrave'`). Më pas, këto vlera renditen në mënyrë zbritëse për të identifikuar vendet me vlerën më të lartë të importeve. Rezultati paraqitet me një **grafik shtyllor (barplot)** duke përdorur bibliotekën `seaborn`, ku boshti horizontal përfaqëson vendet e origjinës dhe boshti vertikal paraqet vlerën totale të mallrave. Ky vizualizim ndihmon në identifikimin e vendeve që kontribuojnë më shumë në vlerën totale të importit, duke ofruar njohuri të dobishme për analiza ekonomike ose doganore.
+
+![img__20.png](Results/img__20.png)
+
+**Trendet mujore të vlerës së mallrave të importuara**
+
+**Përshkrim:**<br>
+
+Ky fragment kodi paraqet një analizë të **trendeve mujore të vlerës së mallrave të importuara**. Fillimisht, të dhënat grupohen sipas muajit (`'MUAJI'`), duke u llogaritur shuma e përgjithshme e kolonës `'Vlera Mallrave'` për secilin muaj. Rezultati është një seri me vlera mujore që tregon se sa mallra janë importuar në terma monetarë gjatë çdo muaji të vitit. Më pas, përdoret një **grafik vijor (line plot)** me pikë për të paraqitur ndryshimet e këtyre vlerave përgjatë muajve. Ky vizualizim e bën të lehtë identifikimin e sezonit me më shumë ose më pak import, si dhe tendencat e përgjithshme në aktivitetin ekonomik gjatë vitit.
+
+![img__21.png](Results/img__21.png)
+
+**Analizë e vlerës së mallrave të importuara sipas vendit të origjinës**
+
+**Përshkrim:**<br>
+
+Ky fragment kodi realizon një **analizë përqindore të vlerës së mallrave të importuara sipas vendit të origjinës**, duke përdorur një **grafik rrumbullak (pie chart)**. Fillimisht, të dhënat grupohen sipas kolonës `'Origjina'`, dhe për secilin vend llogaritet **shuma e vlerës së mallrave** (`'Vlera Mallrave'`). Këto vlera përdoren më pas për të krijuar një grafik që tregon përqindjen që secili vend kontribuon në totalin e përgjithshëm të importeve. Meqë etiketa `autopct='%1.1f%%'` është aktive, për secilën pjesë të grafikës shfaqet përqindja përkatëse. Ky vizualizim është i dobishëm për të krahasuar peshën relative të secilit vend importues në mënyrë vizuale dhe intuitive.
+
+![img__22.png](Results/img__22.png)
+
+**Marrëdhënia midis sasisë së mallrave (Sasia) dhe vlerës së tyre**
+
+**Përshkrim:**<br>
+
+Ky fragment kodi krijon një **grafik shpërndarjeje (scatter plot)** për të analizuar marrëdhënien midis **sasisë së mallrave (`Sasia`)** dhe **vlerës së tyre (`Vlera Mallrave`)**, duke përfshirë edhe informacion shtesë si **origjina** dhe **pesha neto (`Netweight`)**. Çdo pikë në grafik përfaqëson një dërgesë mallrash, ku pozita horizontale tregon sasinë, pozita vertikale tregon vlerën monetare, ngjyra tregon vendin e origjinës, ndërsa madhësia e pikës përfaqëson peshën neto. Ky vizualizim shumëdimensional ndihmon në identifikimin e tendencave të përgjithshme, dërgesave me peshë dhe vlerë të lartë, si dhe krahasimin midis vendeve të ndryshme importuese në mënyrë vizuale dhe analitike.
+
+![img__23.png](Results/img__23.png)
+
+**Correlation heatmap**
+
+**Përshkrim:**<br>
+
+Ky fragment kodi krijon një **hartë nxehtësie të korrelacionit (correlation heatmap)** për të analizuar marrëdhëniet statistikore mes kolonave numerike në dataset. Fillimisht, përzgjidhen kolonat me vlera numerike si `Sasia`, `Vlera Mallrave`, `Netweight`, dhe llojet e ndryshme të taksave (`Taksa Doganës`, `Taksa Akcizës`, `Taksa TVSH-së`). Më pas, përdoret funksioni `.corr()` për të llogaritur **koeficientin e korrelacionit Pearson** ndërmjet çdo dyshe kolonash, duke treguar nëse dhe sa fort ato lidhen mes vete. Me `sns.heatmap()`, këto korrelacione paraqiten vizualisht në një tabelë me ngjyra, ku vlerat afër **1** tregojnë korrelacion të fortë pozitiv, afër **-1** tregojnë korrelacion të fortë negativ, dhe vlerat afër **0** tregojnë mungesë lidhjeje. Ky vizualizim ndihmon në identifikimin e varësive midis variablave, të cilat mund të jenë të rëndësishme për analiza të mëtejshme ose ndërtimin e modeleve parashikuese.
+
+![img__24.png](Results/img__24.png)
+
+**Analizë e strukturës së tatimeve sipas vendit të origjinës së mallrave**
+
+**Përshkrim:**<br>
+
+Ky fragment kodi realizon një **analizë të strukturës së tatimeve sipas vendit të origjinës së mallrave**, duke përdorur një **grafik të grumbulluar me shtylla (stacked bar plot)**. Fillimisht, të dhënat grupohen sipas kolonës `'Origjina'`, dhe për secilin vend llogaritet shuma e tre llojeve të tatimeve: **taksa doganore**, **taksa e akcizës** dhe **taksa e TVSH-së**. Më pas, këto të dhëna vizualizohen në një grafik me shtylla të mbivendosura, ku secila ngjyrë përfaqëson një lloj të ndryshëm tatimi. Ky vizualizim e bën të lehtë krahasimin ndërmjet vendeve të ndryshme të origjinës në aspektin e kontributit tatimor total, si dhe për të kuptuar përbërjen e brendshme të tatimeve për secilin vend.
+
+![img__25.png](Results/img__25.png)
+
+**Shumat kumulative të taksave gjatë muajve**
+
+**Përshkrim:**<br>
+
+Ky kod grupon të dhënat në DataFrame-in `df` sipas kolonës `'MUAJI'` dhe llogarit shumën e tre kolonave të taksave: `'Taksa Doganës'` (taksa doganore), `'Taksa Akcizës'` (taksa e akcizës) dhe `'Taksa TVSH-së'` (TVSH-ja) për secilin muaj. Më pas krijon një grafik lloj **area** me shtresim (stacked) për të vizualizuar shumat kumulative të këtyre taksave gjatë muajve, duke përcaktuar madhësinë dhe transparencën e figurës për lexueshmëri më të mirë. Titulli i grafikës është "Taksa Kumulative Nëpër Muaj", me etiketa për boshtin x (Muaji) dhe boshtin y (Shuma e Taksave), dhe në fund tregohet grafiku.
+
+![img__26.png](Results/img__26.png)
