@@ -345,31 +345,15 @@ Ndjeshmëria e modelit XGBoost ndaj ndryshimeve të learning rate (shkalla e të
 
 Këtu është **Faza 3** e projektit tënd, e përgatitur në të njëjtin stil dhe strukturë si Faza 2 që dhashë më sipër. Kjo fazë përfshin **zbatimin e algoritmeve të të nxënit të thellë (Deep Learning)** dhe **vizualizimin** e performancës së tyre.
 
-### **Faza 3: Zbatimi i Modeleve të Thelluara dhe Vizualizimi i Rezultateve**
+### **Faza 3: Ritrajnimi, përmirësimi i Modeleve dhe Vizualizimi i Rezultateve**
 
-Në këtë fazë, fokusi është në aplikimin e **algoritmeve të të nxënit të thellë (Deep Learning)** për të përmirësuar saktësinë e parashikimit të **taksave të importit (Total\_Tax)** për mallrat që hyjnë në Kosovë. Duke përdorur të dhënat e përpunuara dhe rezultatet nga Faza 2, qëllimi është të ndërtohen modele më komplekse që mund të kapin marrëdhënie jo-lineare midis veçorive hyrëse dhe objektivit.
+Në këtë fazë, fokusi është në aplikimin e **algoritmeve** për të përmirësuar saktësinë e parashikimit të **taksave të importit (Total\_Tax)** për mallrat që hyjnë në Kosovë. Duke përdorur të dhënat e përpunuara dhe rezultatet nga Faza 2, qëllimi është të ndërtohen modele më të sakta duke ndryshuar parametrat e tyre.
 
 #### **Hapat Kryesorë të Fazës 3:**
 
-#### **1. Përgatitja e të Dhënave për Deep Learning**
+#### **1. Përgatitja e të Dhënave**
 
-* **Normalizimi i të dhënave**: Të gjitha veçoritë numerike normalizohen me teknika si MinMaxScaler ose StandardScaler.
-* **Kodimi i kategorive**: Vendet e origjinës dhe çdo atribut tjetër kategorik kodohen me OneHotEncoding ose Embedding për përdorim në rrjete nervore.
-* **Ndarja e të dhënave**: Të dhënat ndahen në **train/validation/test**, zakonisht në raportin 70/15/15.
-
-#### **2. Ndërtimi i Modeleve të Thelluara**
-
-Zbatohen disa arkitektura të rrjeteve nervore për regresion:
-
-* **Rrjet Nervor Artificial (ANN)**:
-
-  * Struktura: Input layer → 2–3 hidden layers me aktivizim ReLU → Output layer me aktivizim linear.
-  * Optimizer: Adam
-  * Humbja: Mean Squared Error (MSE)
-
-* **Rrjet Konvolucional (CNN)** *(nëse të dhënat përmbajnë struktura hapësinore apo sekuenca)*
-
-* **Rrjete të përsëritura (RNN / LSTM)** *(nëse të dhënat janë të varura nga koha – p.sh., muajt)*
+#### **2. Ndërtimi i Modeleve**
 
 #### **3. Trajnimi dhe Vlerësimi i Modeleve**
 
@@ -378,30 +362,16 @@ Zbatohen disa arkitektura të rrjeteve nervore për regresion:
 
 #### **4. Vizualizimi i Rezultateve**
 
-Përdoren grafiqe për të interpretuar performancën:
-
-* **Grafiku i humbjes (loss curve)** në trajnime dhe validim.
-* **Grafiku i vlerave të parashikuara vs reale**.
-* **Grafiku i rëndësisë së veçorive (Feature Importance)** për interpretimin e modelit.
-* **Grafiqe krahasuese të performancës** mes modeleve klasike (Faza 2) dhe Deep Learning (Faza 3).
+Përdoren grafiqe për të interpretuar performancën.
 
 #### **5. Përzgjedhja e Modelit Më të Mirë**
 
-Bazuar në performancë (p.sh., RMSE më i ulët në setin e testimit), përzgjidhet modeli më i përshtatshëm për:
-
-* Parashikim në kohë reale.
-* Integrim në sistemet ekzistuese të doganës.
-* Simulime të ndryshimeve në politika fiskale.
+Bazuar në performancë (p.sh., RMSE më i ulët në setin e testimit), përzgjidhet modeli më i përshtatshëm.
   
 ### **Përdorime Praktike të Modelit të Zhvilluar**
 
 * **Parashikimi i të ardhurave mujore nga dogana**
 * **Identifikimi i rasteve anomale në deklarime** (outliers)
-* **Testimi i skenarëve të ndryshëm politikash importi**
-
-## Faza e 3 - Ritrajnimi i modelit
-
-Qëllimi kryesor i kësaj faze është të ruajë ose përmirësojë performancën e modelit gjatë kohës, duke siguruar që ai të mbetet relevant dhe i përshtatshëm për detyrën për të cilën është ndërtuar.
 
 #### Rezultatet nga faza 3:
 
